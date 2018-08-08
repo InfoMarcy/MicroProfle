@@ -10,8 +10,8 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.bazdigital.controller.service.UserService;
 import com.bazdigital.model.User;
+import com.bazdigital.service.UserService;
 
 
 

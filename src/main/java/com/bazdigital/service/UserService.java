@@ -1,4 +1,4 @@
-package com.bazdigital.controller.service;
+package com.bazdigital.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
