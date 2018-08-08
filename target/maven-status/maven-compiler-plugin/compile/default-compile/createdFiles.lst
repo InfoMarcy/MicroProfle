@@ -1,0 +1,5 @@
+com/bazdigital/model/User.class
+com/bazdigital/model/Role.class
+com/bazdigital/controller/service/UserService.class
+com/bazdigital/model/Domicilio.class
+com/bazdigital/controller/UserController.class
