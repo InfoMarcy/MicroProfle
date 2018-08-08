@@ -10,4 +10,5 @@ public class App extends Application {
 // mvn thorntail:run
 //lsof -i:9990
 // kill -9 14037
+//mvn clean package fabric8:build fabric8:deploy
 
