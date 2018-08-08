@@ -243,7 +243,7 @@ public class User {
 				+ apellidoMaterno + ", email=" + email + ", telefono=" + telefono + ", sexo=" + sexo + ", ocupacion="
 				+ ocupacion + ", estadoCivil=" + estadoCivil + ", rfc=" + rfc + ", nacionalidad=" + nacionalidad
 				+ ", curp=" + curp + ", fechaNaci=" + fechaNaci + ", lugarNaci=" + lugarNaci + ", imageUrl=" + imageUrl
-				+ ", domicilio=" + domicilio + ", role=" + role + ", enabled=" + enabled + "]";
+				+ ", domicilio=" + domicilio + ", role=" + role + "]";
 	}
 	
 

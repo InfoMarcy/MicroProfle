@@ -44,6 +44,31 @@
           </execution>
         </executions>
       </plugin>
+      
+ <plugin>
+        <groupId>io.fabric8</groupId>
+        <artifactId>fabric8-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <goals>
+              <goal>resource</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <generator>
+            <includes>
+              <include>wildfly-swarm</include>
+            </includes>
+            <config>
+              <thorntail>
+                <from>registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift</from>
+              </thorntail>
+            </config>
+          </generator>
+        </configuration>
+    </plugin>
+      
     </plugins>
   </build>
 
@@ -54,4 +79,5 @@
       <artifactId>microprofile</artifactId>
     </dependency>
   </dependencies>
+  
 </project>
