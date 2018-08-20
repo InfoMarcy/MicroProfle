@@ -44,6 +44,7 @@ public class User {
 			String fechaNaci, String lugarNaci, String imageUrl, List<Domicilio> domicilio) {
 		
 		super();
+		this.role = Role.ROLE_USER;
 		this.id = UUID.randomUUID().toString();
 		this.username = username;
 		this.password = password;
