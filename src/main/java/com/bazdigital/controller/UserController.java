@@ -16,7 +16,7 @@ import com.bazdigital.service.UserService;
 
 
 @ApplicationScoped
-@Path("/api/users")
+@Path("/")
 public class UserController {
 	
 	@Inject // use CDI to inject a service
@@ -31,9 +31,17 @@ public class UserController {
 	
 	
 	@GET
-    @Path("/{username}")
+    @Path("/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-    public User getBook(@PathParam("username") String username) {
+    public User getBook(@PathParam("id") String id) {
+        return userService.getUserById(id);
+    }
+	
+	
+	@GET
+    @Path("/username/{username}")
+	@Produces(MediaType.APPLICATION_JSON)
+    public User getUserByUsername(@PathParam("username") String username) {
         return userService.getUser(username);
     }
 	

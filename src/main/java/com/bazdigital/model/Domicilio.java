@@ -22,6 +22,7 @@ public class Domicilio {
 	public Domicilio(String calle, String noInterior, String noExterior, String callesDeReferencia, String colonia,
 			String delegacion, String estado, String pais, String postalCode) {
 		super();
+		this.id = UUID.randomUUID().toString();
 		this.calle = calle;
 		this.noInterior = noInterior;
 		this.noExterior = noExterior;

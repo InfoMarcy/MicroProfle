@@ -2,6 +2,7 @@ package com.bazdigital.model;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 
 public class User {
@@ -41,7 +42,9 @@ public class User {
 			String apellidoMaterno, String email, String telefono, int edad,
 			String sexo, String ocupacion, String estadoCivil, String rfc, String nacionalidad, String curp,
 			String fechaNaci, String lugarNaci, String imageUrl, List<Domicilio> domicilio) {
+		
 		super();
+		this.id = UUID.randomUUID().toString();
 		this.username = username;
 		this.password = password;
 		this.nombre = nombre;
