@@ -12,3 +12,5 @@ public class App extends Application {
 // kill -9 14037
 //mvn clean package fabric8:build fabric8:deploy
 
+//  http://user-microprofile.a3c1.starter-us-west-1.openshiftapps.com/
+
