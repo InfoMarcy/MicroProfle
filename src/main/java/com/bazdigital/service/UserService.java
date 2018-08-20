@@ -43,9 +43,27 @@ public class UserService {
 							 
 							);
 					
+					User usuario4 = new User(
+							"developer", "1234567", "Daniel", "", "Morales", "Rojas", "daniel@hotmail.com", "5510213979", 19, "F", "Bartender", "Soltera", "SOL67001", "Mexicana", "DOL90001HNE02RRR2","1990-02-01", "Mexico",  "url",
+							 Arrays.asList(
+									    new Domicilio("Luis Quintero", "123", "", "Luis y Soto", "Gustavo A. Madero", "Atzacualco", "Cuidad de Mexico", "Mexico", "09300")
+									 )
+							 
+							);
+					
+					User usuario5 = new User(
+							"angelito01", "angelcorrea", "Angel", "", "Correa", "Ortiz", "angel@hotmail.com", "5510213979", 19, "F", "Supervisor", "Casado", "SOL67001", "Mexicana", "DOL90001HNE02RRR2","1990-02-01", "Mexico",  "url",
+							 Arrays.asList(
+									    new Domicilio("Luis Quintero", "123", "", "Luis y Soto", "Gustavo A. Madero", "Atzacualco", "Cuidad de Mexico", "Mexico", "09300")
+									 )
+							 
+							);
+					
 					listaDeUsuarios.add(usuario1);
 					listaDeUsuarios.add(usuario2);	
 					listaDeUsuarios.add(usuario3);	
+					listaDeUsuarios.add(usuario4);	
+					listaDeUsuarios.add(usuario5);	
 	}
 	
 
