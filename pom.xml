@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.bazdigital</groupId>
-  <artifactId>user-service-microprofile 1</artifactId>
+  <artifactId>user-service-microprofile</artifactId>
   <name>Thorntail User MicroProfile Example</name>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>war</packaging>
